@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApparkingApplication<Apparking>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.misiontic.Apparking.ApparkingApplication",
+            "projectName": "Apparking",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

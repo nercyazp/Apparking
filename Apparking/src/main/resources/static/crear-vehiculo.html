@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apparking</title>
+
+    <style>
+        .miClase {
+            border: 2px solid black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.1/solar/bootstrap.min.css"
+        integrity="sha512-LhpxG+XCtib/q8R0I0rlktQ4CBE+sRoz22WY/71cBjc2srSqNshLXE0fIZQDsAqQoC7/cHjpNAtRx78MiloTAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   
+    <div id = "navbar"></div>
+
+    <div class="container mt-3">
+
+
+        <h1>Ingresar Vehiculo</h1>
+        <p style="color: azure;">A continuación podrá realizar el registro de un Vehiculo</p>
+
+
+        <div class="row">
+
+            <div class="card">
+                <div class="card-body">
+
+                    <form onsubmit="return false">
+
+                        <label class="form-label" for="placaInput">Placa</label>
+                        <input class="form-control" type="text" name="placa" id="placaInput">
+
+                        <label class="form-label" for="marcaInput">Marca</label>
+                        <input class="form-control" type="text" name="marca" id="marcaInput">
+
+                        <label class="form-label" for="colorInput">Color</label>
+                        <input class="form-control" type="text" name="color" id="colorInput">
+
+                        <!-- <label class="form-label" for="numeroDoducumentoInput">Numero de documento del conductor</label>
+                        <input class="form-control" type="number" name="d_conductor" id="numeroDoducumentoInput">
+
+                        <label class="form-label" for="nombreConductorInput">Nombre del Conductor</label>
+                        <input class="form-control" type="text" name="nonbreConductor" id="nombreConductorInput">
+ -->
+                        <button onclick="crearVehiculo()" class="btn btn-primary mt-4" type="submit">Ingresar</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="js/crear-vehiculo.js"></script>
+    <script src="js/navbar.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
