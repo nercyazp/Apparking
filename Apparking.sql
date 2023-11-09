@@ -5,7 +5,7 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema Apparking adding sche,a lo logre
+-- Schema Apparking adding sche,a
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
@@ -14,8 +14,8 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 CREATE SCHEMA IF NOT EXISTS `Apparking` DEFAULT CHARACTER SET utf8 ;
 USE `Apparking` ;
 
--- ----------------------------------------------------- 
--- Table `Apparking`.`conductor`asd
+-- -----------------------------------------------------
+-- Table `Apparking`.`conductor`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Apparking`.`conductor` (
   `id_conductor` INT NOT NULL AUTO_INCREMENT,
